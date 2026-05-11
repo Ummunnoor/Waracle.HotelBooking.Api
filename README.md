@@ -47,6 +47,14 @@ Example booking request:
 - Booking references are unique and enforced by a database unique index.
 - Guests cannot book rooms below their party size.
 
+## Database
+
+SQLite was selected for simplicity and portability within the scope of the assessment. The application architecture uses Entity Framework Core with migrations, allowing straightforward migration to Azure SQL or PostgreSQL for production scalability and enterprise deployments.
+
+## Deployment
+
+Azure deployment was initially considered in line with the assessment guidance. Due to exhausted free-tier subscription credits, the application was deployed to Render for simplicity and accessibility during evaluation. The Dockerfile supports deployment to any container-based platform.
+
 ## Tests
 
 ```powershell
