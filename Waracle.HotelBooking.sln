@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{31A13B95-AD45-4194-83F7-8E5F54FA6ECC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Waracle.HotelBooking.Api", "src\Waracle.HotelBooking.Api\Waracle.HotelBooking.Api.csproj", "{5CDB92EF-0E12-4B74-88A2-D85808BE6F54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B62EAB38-7953-4BD8-9EDC-CCCE2AD4E219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Waracle.HotelBooking.Api.Tests", "tests\Waracle.HotelBooking.Api.Tests\Waracle.HotelBooking.Api.Tests.csproj", "{710BE139-163E-44A1-96D6-F5FC6BD9AD69}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CDB92EF-0E12-4B74-88A2-D85808BE6F54} = {5CDB92EF-0E12-4B74-88A2-D85808BE6F54}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CDB92EF-0E12-4B74-88A2-D85808BE6F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDB92EF-0E12-4B74-88A2-D85808BE6F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CDB92EF-0E12-4B74-88A2-D85808BE6F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CDB92EF-0E12-4B74-88A2-D85808BE6F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{710BE139-163E-44A1-96D6-F5FC6BD9AD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710BE139-163E-44A1-96D6-F5FC6BD9AD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710BE139-163E-44A1-96D6-F5FC6BD9AD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710BE139-163E-44A1-96D6-F5FC6BD9AD69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CDB92EF-0E12-4B74-88A2-D85808BE6F54} = {31A13B95-AD45-4194-83F7-8E5F54FA6ECC}
+		{710BE139-163E-44A1-96D6-F5FC6BD9AD69} = {B62EAB38-7953-4BD8-9EDC-CCCE2AD4E219}
+	EndGlobalSection
+EndGlobal

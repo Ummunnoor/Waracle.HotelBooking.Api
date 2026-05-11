@@ -1,0 +1,44 @@
+# Build outputs
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# User-specific files
+.vscode/
+.idea/
+*.user
+*.suo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Tests
+tests/
+*.Tests/
+
+# Documentation
+README.md
+*.md
+
+# SQLite database (will be created fresh in container)
+*.db
+
+# Logs
+*.log
